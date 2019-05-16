@@ -1,0 +1,164 @@
+.titan-title-size-custom {
+    padding: 0;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.titan-title-size-custom h1 {
+    text-align: left;
+}
+.titan-title-size-custom h1 span {
+    color: #009c77;
+}
+.titan-title-size-custom p {
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    letter-spacing: normal;
+    max-width: 50%;
+}
+.navbar-custom {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.navbar-custom .navbar-brand {
+    margin-top: 8px;
+}
+.titan-caption .btn {
+    float: left;
+    margin-right: 10px;
+}
+.btn-primary {
+    background-color: #0869ff;
+    border-color: #0869ff;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #054ada;
+    border-color: #054ada;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background: #000000;
+}
+.navbar-brand {
+    height: auto;
+}
+.navbar-custom .nav li > a {
+    font-size: 12px;
+}
+
+#currentstate h3,
+#currentstate .module-subtitle,
+#currentstate .content-box {
+    text-align: left;
+}
+.bg-grey {
+    background-color: #f4f4f4;
+}
+.about-cta {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    color: #337ab7;
+}
+.about-cta:hover {
+    color: #42a1f3;
+}
+.about-cta:hover .fa {
+    margin-left: 5px;
+    transition: all 0.5s ease;
+}
+
+.alt-features-title  {
+    text-transform: none;
+    font-size: 16px; 
+}
+
+#characteristics .alt-features-title,
+#characteristics .alt-features-icon {
+    color: white;
+}
+
+#characteristics h2,
+#contact h2,
+#approach h2,
+#usecases h2,
+.usecases h2,
+#characteristics .module-subtitle,
+#approach .module-subtitle,
+#contact .module-subtitle {
+    text-align: left;
+}
+#approach .alt-features-item {
+    margin: 35px 0 0 0;
+}
+/*#contact {
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}*/
+#contact .alt-features-item {
+    padding-left: 0;
+}
+#contact .module-subtitle {
+    margin-bottom: 0;
+}
+#contact .alt-features-item {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+#contact .alt-features-icon {
+    color:white;
+    display: inline-block;
+    position: relative;
+}
+#contact .icon-shield {
+    font-size: 23px;
+}
+#contact .alt-features-title {
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.links ul li {
+    float: left;
+    margin-right: 10px;
+    font-size: 16px;
+}
+@media (max-width: 1170px) {
+    .navbar-custom {
+        margin-bottom:0;
+    }
+    .navbar-custom .navbar-brand {
+        margin-bottom: 8px;
+    }
+    .home-section {
+        margin-top: 65px;
+    }
+    .titan-title-size-custom h1, 
+    .titan-title-size-custom p {
+        text-align: center;
+    }
+    .titan-title-size-custom p {
+        max-width: 100%;
+        padding: 0 40px;
+    }
+    .titan-title-size-custom .btn {
+        float: none;
+    }
+}
+@media (max-width: 767px) {
+    .alt-features-icon,
+    .alt-features-title,
+    .alt-features-item  {
+        text-align: left;
+    }
+    #contact .alt-features-title {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .module-subtitle {
+        margin-bottom: 30px;
+    }
+}
